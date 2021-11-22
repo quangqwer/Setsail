@@ -1,0 +1,20 @@
+:root{
+    --primary-color: #3fd0d4;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    /* de doi sang rem cho tron 1 rem = 16px */
+    font-size: 62.5%;
+    /* 1 rem luc nay = 10px */
+    line-height: 1.6rem;
+    font-family: 'Poppin', sans-serif;
+    box-sizing: border-box;
+}
+.center{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
